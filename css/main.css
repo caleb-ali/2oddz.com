@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* backgroundd to cover the whole page*/
+html { 
+    background: url('../images/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.logo {
+    padding: 1em 5em 0em 1em;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFC107;
+    float: left;
+    width: 30%;
+    height: 110px;
+}
+
+.slide-left {
+  overflow:hidden;
+  color: #FFC107;
+  float: right;
+  width: 70%;
+  height: 110px;
+  
+  
+}
+
+.slide-left p {
+  animation: slide-left 10s;
+  padding-top: 4.45em;
+  font-weight: bold;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+/* style the nav bar*/
+
+#navbar {
+    overflow: auto;
+    background-color: #FFFFFF;   
+    top: 0;
+    width: 100%;
+    position: sticky;
+}
+
+/* links inside the navbar*/
+
+#navbar ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+#navbar ul li {
+  float:left;
+
+  width: 16.66%;
+}
+
+#navbar ul li a {
+  display: block;
+  color:#141111;
+  text-decoration:none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 9px;
+}
+
+/* background color on mouse-over */
+#navbar ul li a:hover {
+    background-color: #4CAF50;
+}
+
+
+ /* design for the tables, i gave all of them the same id in html to be able to style together*/
+
+  #tables {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-radius: 7px 7px 7px 0px;
+    overflow: hidden;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    
+    
+  
+  }
+  
+  #tables td, #tables th {
+    border: none;
+    padding: 5px;
+
+  }
+  
+  #tables tr:nth-child(even){background-color: #FFFFFF;}
+  #tables tr:nth-child(odd){background-color:#BDBDBD;}
+  #tables tr:hover {background-color: #FFC107;}
+  
+  #tables th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    
+  }
+
+  /* twoodds heading */
+  #twoodds h2 {
+      color: #FFC107;
+      margin: 0% 0% 0% 5%;
+      padding: 2em 1em 0em 1em;
+  }
+
+  /* Tomorrows_Prediction heading */
+  #Tomorrows_Prediction h2{
+    color: #FFC107;
+    margin: 0% 0% 0% 5%;
+    padding: 2em 1em 0em 1em;
+  }
+
+ /* over 1.5 heading */
+  #over_1_5 h2{
+    color: #FFC107;
+    margin: 0% 0% 0% 5%;
+    padding: 2em 1em 0em 1em;
+  }
+
+  /* 1x2 heading */
+  #f1x2 h2{
+    color: #FFC107;
+    margin: 0% 0% 0% 5%;
+    padding: 2em 1em 0em 1em;
+  }
+
+  /* bts heading */
+  #bts h2{
+    color: #FFC107;
+    margin: 0% 0% 0% 5%;
+    padding: 2em 1em 0em 1em;
+  }
+
+
+/* betting tips section styling */
+#betting_tips{
+    background-color: white;
+    border-radius: 1em;
+    margin-top: 5em;
+    padding: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    
+}
+
+
+/* betting tips header */
+#betting_tips h2{
+    text-align: center;
+    position: static;
+    background: #4CAF50;
+    margin: 0em;
+    border-radius: 7px;
+    padding: 0.4em;
+}
+
+
+#betting_tips h3{
+  color: #455a64;
+}
+
+#betting_tips p{
+  font-size: 14px;
+  color: #455a64;
+}
+
+#footer{
+    background-color: #263238;
+    border-radius: 1em 1em 0em 0em;
+    margin-top: 5em;
+    padding: 2em;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+#footer p{
+  color: #ffa000;
+}
+
+
+/*making everything align to the center on Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:500px) {
+
+ #navbar{
+   width: 100%;
+ }
+ #navbar ul li {
+  float:left;
+  width: 33.33%;
+}
+#navbar ul li a {
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+#tables{
+  font-size: 7px;
+
+}
+
+#tables td, #tables th {
+  padding: 2px;
+
+}
+
+.logo{
+  margin-left: 0%;
+  text-align: left;
+}
+
+.slide-left {
+  float: none;
+  height: 40px;
+  width: 100%;
+}
+
+.slide-left p {
+  padding-top: 0em;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 1em;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* twoodds heading */
+#twoodds h2 {
+  padding: 0.5em 0em 0em 0em;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+
+
+/* Tomorrows_Prediction heading */
+#Tomorrows_Prediction h2{
+  padding: 0.5em 0em 0em 0em;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* over 1.5 heading */
+#over_1_5 h2{
+  padding: 0.5em 0em 0em 0em;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* 1x2 heading */
+#f1x2 h2{
+  padding: 0.5em 0em 0em 0em;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* bts heading */
+#bts h2{
+  padding: 0.5em 0em 0em 0em;
+  font-size: 20px;
+  text-align: left;
+}
+
+#betting_tips{
+  margin-top: 1em;
+}
+
+#betting_tips h2{
+  border-radius: 0.5em;
+  font-size: 20px;
+  margin-top: -1em;
+  
+}
+#betting_tips h3{
+  text-align: left;
+  font-size: 15px;
+}
+
+#betting_tips p{
+  font-size: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+} 
+
+
+
+@media only screen and (max-width: 960px) and (min-width: 501px) {
+
+ #navbar{
+   width: 100%;
+ }
+ #navbar ul li {
+  float:left;
+  width: 33.33%;
+}
+#navbar ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#tables{
+  font-size: 15px;
+}
+#tables td, #tables th {
+  padding: 5px;
+
+}
+
+.logo{
+  margin-left: 0%;
+  text-align: left;
+}
+
+.slide-left {
+  float: none;
+  height: 50px;
+  width: 100%;
+}
+
+.slide-left p {
+  padding-top: 0em;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 1em;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+  #twoodds h2 {
+    padding: 1em 0em 0em 0em;
+    font-size: 25px;
+    text-align: left;
+  }
+  
+  /* Tomorrows_Prediction heading */
+  #Tomorrows_Prediction h2{
+    padding: 1em 0em 0em 0em;
+    font-size: 25px;
+    text-align: left;
+  }
+  
+  /* over 1.5 heading */
+  #over_1_5 h2{
+    padding: 1em 0em 0em 0em;
+    font-size: 25px;
+    text-align: left;
+  }
+  
+  /* 1x2 heading */
+  #f1x2 h2{
+    padding: 1em 0em 0em 0em;
+    font-size: 25px;
+    text-align: left;
+  }
+  
+  /* bts heading */
+  #bts h2{
+    padding: 1em 0em 0em 0em;
+    font-size: 25px;
+    text-align: left;
+  }
+  
+  #betting_tips{
+    margin-top: 2em;
+  }
+  
+  #betting_tips h2{
+    border-radius: 0.5em;
+    font-size: 25px;
+    margin-top: 0em;
+    
+  }
+  #betting_tips h3{
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  #betting_tips p{
+    font-size: 15px;
+    text-align: left;
+  }
+}
+
+
+
