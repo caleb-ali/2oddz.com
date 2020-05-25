@@ -228,10 +228,10 @@ html {
   width: 33.33%;
 }
 #navbar ul li a {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
-  padding-top: 6px;
-  padding-bottom: 5px;
+  padding-top: 17px;
+  padding-bottom: 17px;
   text-decoration: none;
 }
 
@@ -277,7 +277,7 @@ html {
 
 /* twoodds heading */
 #twoodds h2 {
-  padding: 0.5em 0em 0em 0em;
+  padding: 1em 0em 0em 0em;
   font-size: 20px;
   text-align: left;
 }
@@ -287,28 +287,28 @@ html {
 
 /* Tomorrows_Prediction heading */
 #Tomorrows_Prediction h2{
-  padding: 0.5em 0em 0em 0em;
+  padding: 1em 0em 0em 0em;
   font-size: 20px;
   text-align: left;
 }
 
 /* over 1.5 heading */
 #over_1_5 h2{
-  padding: 0.5em 0em 0em 0em;
+  padding: 1em 0em 0em 0em;
   font-size: 20px;
   text-align: left;
 }
 
 /* 1x2 heading */
 #f1x2 h2{
-  padding: 0.5em 0em 0em 0em;
+  padding: 1em 0em 0em 0em;
   font-size: 20px;
   text-align: left;
 }
 
 /* bts heading */
 #bts h2{
-  padding: 0.5em 0em 0em 0em;
+  padding: 1em 0em 0em 0em;
   font-size: 20px;
   text-align: left;
 }
