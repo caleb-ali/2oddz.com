@@ -206,13 +206,10 @@ html {
 
 #footer{
     background-color: #263238;
-    border-radius: 1em 1em 0em 0em;
     margin-top: 5em;
-    padding: 2em;
+    padding: 1em;
     text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
+    width: 100%;
 }
 
 #footer p{
@@ -233,13 +230,13 @@ html {
 #navbar ul li a {
   font-size: 12px;
   font-weight: bold;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 6px;
+  padding-bottom: 5px;
   text-decoration: none;
 }
 
 #tables{
-  font-size: 7px;
+  font-size: 10px;
 
 }
 
@@ -332,7 +329,7 @@ html {
 }
 
 #betting_tips p{
-  font-size: 10px;
+  font-size: 11px;
   text-align: left;
   font-weight: bold;
 }
