@@ -107,6 +107,7 @@ html {
   margin-right: 5%;
   font-weight: 700;
   width: 65%;
+  
 }
 .welcome p{
   font-size: 20px;
@@ -236,7 +237,7 @@ html {
   width: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 2px 2px;
   border-radius: 50%;
 }
 
