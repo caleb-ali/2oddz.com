@@ -16,7 +16,9 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
   }
+
 
 .logo {
     padding: 1em 5em 0em 1em;
@@ -97,6 +99,18 @@ html {
 /* background color on mouse-over */
 #navbar ul li a:hover {
     background-color: #4CAF50;
+}
+
+.welcome{
+  color: #FFC107;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: 700;
+  width: 65%;
+}
+.welcome p{
+  font-size: 20px;
+  
 }
 
 
@@ -216,6 +230,26 @@ html {
   color: #ffa000;
 }
 
+.fa {
+  padding: 7.5px;
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
 
 /*making everything align to the center on Extra small devices (phones, 600px and down) */
 @media only screen and (max-width:500px) {
@@ -235,6 +269,18 @@ html {
   padding-top: 17px;
   padding-bottom: 17px;
   text-decoration: none;
+}
+
+.welcome{
+  width: 90%;
+}
+.welcome h1{
+  font-weight: 700;
+  font-size: 25px;
+}
+.welcome p{
+  font-size: 14px;
+  
 }
 
 #tables{
