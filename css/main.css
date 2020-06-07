@@ -24,7 +24,7 @@ html {
     padding: 1em 5em 0em 1em;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #FFC107;
+    color: #f3c623;
     float: left;
     width: 30%;
     height: 110px;
@@ -32,7 +32,7 @@ html {
 
 .slide-left {
   overflow:hidden;
-  color: #FFC107;
+  color: #f3c623;
   float: right;
   width: 70%;
   height: 110px;
@@ -98,10 +98,10 @@ html {
 
 /* background color on mouse-over */
 #navbar ul li a:hover {
-    background-color: #4CAF50;
+  background-color: #58b4ae;
 }
 
-.welcome{
+/*.welcome{
   color: #FFC107;
   margin-left: 5%;
   margin-right: 5%;
@@ -112,7 +112,7 @@ html {
 .welcome p{
   font-size: 20px;
   
-}
+}*/
 
 
  /* design for the tables, i gave all of them the same id in html to be able to style together*/
@@ -139,48 +139,48 @@ html {
   
   #tables tr:nth-child(even){background-color: #FFFFFF;}
   #tables tr:nth-child(odd){background-color:#BDBDBD;}
-  #tables tr:hover {background-color: #FFC107;}
+  #tables tr:hover {background-color: #f3c623;}
   
   #tables th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4CAF50;
+    background-color: #58b4ae;
     color: white;
     
   }
 
   /* twoodds heading */
   #twoodds h2 {
-      color: #FFC107;
+      color: #f3c623;
       margin: 0% 0% 0% 5%;
       padding: 2em 1em 0em 1em;
   }
 
   /* Tomorrows_Prediction heading */
   #Tomorrows_Prediction h2{
-    color: #FFC107;
+    color: #f3c623;
     margin: 0% 0% 0% 5%;
     padding: 2em 1em 0em 1em;
   }
 
  /* over 1.5 heading */
   #over_1_5 h2{
-    color: #FFC107;
+    color: #f3c623;
     margin: 0% 0% 0% 5%;
     padding: 2em 1em 0em 1em;
   }
 
   /* 1x2 heading */
   #f1x2 h2{
-    color: #FFC107;
+    color: #f3c623;
     margin: 0% 0% 0% 5%;
     padding: 2em 1em 0em 1em;
   }
 
   /* bts heading */
   #bts h2{
-    color: #FFC107;
+    color: #f3c623;
     margin: 0% 0% 0% 5%;
     padding: 2em 1em 0em 1em;
   }
@@ -189,7 +189,7 @@ html {
 /* betting tips section styling */
 #betting_tips{
     background-color: white;
-    border-radius: 1em;
+    border-radius: 7px 7px 7px 0px;
     margin-top: 5em;
     padding: 2em;
     margin-left: 5%;
@@ -203,7 +203,7 @@ html {
 #betting_tips h2{
     text-align: center;
     position: static;
-    background: #4CAF50;
+    background: #58b4ae;
     margin: 0em;
     border-radius: 7px;
     padding: 0.4em;
@@ -220,7 +220,7 @@ html {
 }
 
 #footer{
-    background-color: #263238;
+    background-color: #00263b;
     margin-top: 5em;
     padding: 1em;
     text-align: center;
@@ -228,7 +228,7 @@ html {
 }
 
 #footer p{
-  color: #ffa000;
+  color: #f3c623;
 }
 
 .fa {
@@ -237,7 +237,7 @@ html {
   width: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 2px 2px 2px 2px;
+  margin: 2px 2px;
   border-radius: 50%;
 }
 
