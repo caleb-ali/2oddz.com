@@ -133,7 +133,7 @@ html {
   
   #tables td, #tables th {
     border: none;
-    padding: 5px;
+    padding: 5px 0px 5px 5px;
 
   }
   
@@ -149,6 +149,8 @@ html {
     color: white;
     
   }
+
+  
 
   /* twoodds heading */
   #twoodds h2 {
