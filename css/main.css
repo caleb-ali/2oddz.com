@@ -69,6 +69,7 @@ html {
     top: 0;
     width: 100%;
     position: sticky;
+    z-index: 1;
 }
 
 /* links inside the navbar*/
@@ -114,6 +115,19 @@ border-radius: 7px 7px 7px 0px;
   color: #f3c623;
   padding: 10px 0px 0px 5px;
 }
+
+.welcome h2::before{
+  content:'';
+  position: absolute;
+  width: 14.7em;
+  background: #f3c623;
+  height: .2em;
+  text-align: center;
+  margin-top: 1.3em;
+  z-index: 0;
+  }
+
+
 .welcome p{
   color: whitesmoke;
   padding: 2px 0px 10px 5px;
@@ -224,6 +238,32 @@ border-radius: 7px 7px 7px 0px;
   color: #455a64;
 }
 
+#betting_tips h3::before{
+  content:'';
+  position: absolute;
+  width: 13.7em;
+  background: #f3c623;
+  height: .2em;
+  text-align: center;
+  margin-top: 1.3em;
+
+  }
+  #betting_tips h4{
+    color: #455a64;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  #betting_tips h4::before{
+    content:'';
+    position: absolute;
+    width: 9.4em;
+    background: #f3c623;
+    height: .2em;
+    text-align: center;
+    margin-top: 1.3em;
+  
+    }
+
 #betting_tips p{
   font-size: 14px;
   color: #455a64;
@@ -267,7 +307,7 @@ border-radius: 7px 7px 7px 0px;
 
  #navbar{
    width: 100%;
-   position: sticky;
+   position: absolute;
  }
 
  #navbar ul li {
@@ -289,6 +329,8 @@ border-radius: 7px 7px 7px 0px;
   font-weight: 700;
   font-size: 20px;
 }
+
+
 .welcome p{
   font-size: 14px;
   
@@ -385,6 +427,10 @@ border-radius: 7px 7px 7px 0px;
   
 }
 #betting_tips h3{
+  text-align: left;
+  font-size: 15px;
+}
+#betting_tips h4{
   text-align: left;
   font-size: 15px;
 }
@@ -500,6 +546,11 @@ border-radius: 7px 7px 7px 0px;
     
   }
   #betting_tips h3{
+    text-align: left;
+    font-size: 20px;
+  }
+
+  #betting_tips h4{
     text-align: left;
     font-size: 20px;
   }
