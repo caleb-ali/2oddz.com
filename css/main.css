@@ -307,7 +307,7 @@ border-radius: 7px 7px 7px 0px;
 
  #navbar{
    width: 100%;
-   position: absolute;
+   position: relative;
  }
 
  #navbar ul li {
@@ -449,6 +449,7 @@ border-radius: 7px 7px 7px 0px;
 
  #navbar{
    width: 100%;
+   position: relative;
  }
  #navbar ul li {
   float:left;
